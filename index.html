@@ -1,52 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Scatter Plot Projection</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Scatter Plot Projection</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<h1>3D Scatter Plot Projection</h1>
 
-    <h1>3D Scatter Plot Projection</h1>
+<div class="controls">
+<label for="projection">Projection:</label>
+<select id="projection">
+<option>Orthographic</option>
+<option>Perspective</option>
+</select>
+<br><br>
 
-    <div class="controls">
+<label for="yaw">Yaw:</label>
+<input type="range" id="yaw" min="0" max="360" value="0">
+<br><br>
 
-        <label for="projection">Projection:</label>
-        <select id="projection">
-            <option value="orthographic">Orthographic</option>
-            <option value="perspective">Perspective</option>
-        </select>
+<label for="pitch">Pitch:</label>
+<input type="range" id="pitch" min="0" max="360" value="0">
+<br><br>
 
-        <br><br>
+<label for="roll">Roll:</label>
+<input type="range" id="roll" min="0" max="360" value="0">
+<br><br>
 
-        <label for="yaw">Yaw:</label>
-        <input type="range" id="yaw" min="0" max="360" value="0">
+<label>
+<input type="checkbox" id="autoRotate" checked>
+Auto Rotate
+</label>
+</div>
 
-        <br><br>
+<br>
 
-        <label for="pitch">Pitch:</label>
-        <input type="range" id="pitch" min="0" max="360" value="0">
+<canvas id="canvas" width="900" height="600"></canvas>
 
-        <br><br>
-
-        <label for="roll">Roll:</label>
-        <input type="range" id="roll" min="0" max="360" value="0">
-
-        <br><br>
-
-        <label>
-            <input type="checkbox" id="autoRotate" checked>
-            Auto Rotate
-        </label>
-
-    </div>
-
-    <br>
-
-    <canvas id="Scattercanvas" width="900" height="600"></canvas>
-
-    <script src="script.js"></script>
-
+<script src="script.js"></script>
+<div class="id"></div>
+<footer>BY NAVEEN KUMAR.G</footer>
 </body>
 </html>
