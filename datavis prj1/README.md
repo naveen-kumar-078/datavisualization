@@ -1,5 +1,4 @@
-3D Scatter Plot Projection Project Documentation
-Project Overview
+3D Scatter Plot Projection 
 
 This project visualizes randomly generated 3D points on an HTML5 canvas. Users can rotate the point cloud using Yaw, Pitch, and Roll controls and switch between Orthographic and Perspective projection modes.
 
@@ -32,3 +31,7 @@ Includes depth scaling. scale=f/(f+z); x_screen=x×scale; y_screen=y×scale. Dis
 
 Overall Implementation
 The browser loads the dataset, applies selected rotations every frame, converts the rotated 3D coordinates into 2D using the chosen projection, and renders the scatter plot on the canvas. When Auto Rotate is enabled, rotation angles are continuously updated and the scene is redrawn using requestAnimationFrame for smooth animation.
+
+
+
+by -NAVEEN KUMAR G
