@@ -1,8 +1,4 @@
-/* =========================================================================
- * main.js
- * RECURSIVE SQUARIFIED TREEMAP ENGINE
- * Implements the Bruls / Huizing / van Wijk squarified layout algorithm.
- * ========================================================================= */
+
 
 const HEADER_HEIGHT   = 26;   // height of each parent-node title bar
 const MIN_HEADER_AREA = 40;   // don't draw a header if the box is too small
@@ -521,7 +517,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .then(data => layout(data))
     .catch(err => {
-      console.warn('fetch(data.json) failed, using embedded fallback data:', err.message);
       layout(JSON.parse(JSON.stringify(FALLBACK_DATA)));
     });
 });
