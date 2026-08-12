@@ -9,7 +9,7 @@ let projectionMode = "orthographic";
 const yawSlider = document.getElementById("yaw");
 const pitchSlider = document.getElementById("pitch");
 const rollSlider = document.getElementById("roll");
-const projectionSelect = document.getElementById("projectionSelect");
+const projectionSelect = document.getElementById("projection");
 const autoRotate = document.getElementById("autoRotate");
 fetch("data.json")
 .then(res => res.json())
