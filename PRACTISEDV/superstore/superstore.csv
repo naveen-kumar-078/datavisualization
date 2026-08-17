@@ -1,0 +1,25 @@
+Order Date,Category,Sub-Category,Region,Segment,Sales,Profit,Quantity,Advertising Spend
+2026-01-05,Electronics,Laptop,North,Consumer,1250,220,2,300
+2026-01-12,Furniture,Chair,South,Corporate,450,65,3,90
+2026-01-20,Office Supplies,Paper,East,Consumer,120,25,10,30
+2026-02-03,Electronics,Mobile,West,Home Office,800,140,4,180
+2026-02-11,Furniture,Table,North,Corporate,950,120,2,160
+2026-02-19,Office Supplies,Pens,South,Consumer,180,35,12,45
+2026-03-04,Electronics,Tablet,East,Consumer,620,105,3,130
+2026-03-13,Furniture,Chair,West,Home Office,520,80,4,110
+2026-03-22,Office Supplies,Folders,North,Corporate,210,42,8,55
+2026-04-02,Electronics,Laptop,South,Corporate,1450,260,2,340
+2026-04-10,Furniture,Table,East,Consumer,1100,155,3,210
+2026-04-18,Office Supplies,Paper,West,Home Office,160,30,15,40
+2026-05-06,Electronics,Mobile,North,Consumer,900,170,5,200
+2026-05-15,Furniture,Chair,South,Home Office,600,95,5,125
+2026-05-24,Office Supplies,Pens,East,Corporate,240,50,18,60
+2026-06-01,Electronics,Tablet,West,Corporate,700,115,4,150
+2026-06-09,Furniture,Table,North,Consumer,1200,180,3,230
+2026-06-17,Office Supplies,Folders,South,Consumer,280,55,10,70
+2026-07-05,Electronics,Laptop,East,Home Office,1600,300,3,380
+2026-07-14,Furniture,Chair,West,Corporate,680,110,6,145
+2026-07-23,Office Supplies,Paper,North,Consumer,200,38,20,50
+2026-08-03,Electronics,Mobile,South,Consumer,1050,195,6,240
+2026-08-12,Furniture,Table,East,Corporate,1300,210,4,270
+2026-08-21,Office Supplies,Pens,West,Home Office,300,62,22,75
